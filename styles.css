@@ -1,114 +1,113 @@
 /* Global styles */
 body {
-    font-family: 'Helvetica Neue', Arial, sans-serif; /* Using a clean, modern font */
+    font-family: 'Arial', sans-serif; /* Clean sans-serif font */
     margin: 0;
     padding: 0;
-    background-color: #f9f9f9; /* Soft light gray background */
+    background-color: #eef2f3; /* Light neutral background */
     color: #333; /* Dark gray text for readability */
     line-height: 1.6;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
 }
 
 /* Centered content wrapper */
 .container {
-    max-width: 800px;
-    width: 100%;
-    padding: 30px; /* Increased padding for a more spacious layout */
+    max-width: 800px; /* Limit width for better readability */
+    width: 90%; /* Responsive width */
+    margin: auto; /* Center container */
+    padding: 30px; /* Generous padding for spacious layout */
     box-sizing: border-box;
-    background-color: #ffffff; /* White background for the main container */
-    border-radius: 8px; /* Rounded corners */
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    background-color: #ffffff; /* White background for contrast */
+    border-radius: 10px; /* Slightly more rounded corners */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
 }
 
 /* Header styles */
 header {
-    background-color: #004080; /* Dark blue for a professional feel */
+    background-color: #005F73; /* Deep teal for a calming look */
     color: #ffffff;
     text-align: center;
-    padding: 20px;
+    padding: 25px;
     font-size: 2em; /* Larger font size for emphasis */
     font-weight: bold;
-    margin-bottom: 20px;
-    border-radius: 8px 8px 0 0; /* Rounded top corners */
+    border-radius: 10px 10px 0 0; /* Rounded top corners */
+    margin-bottom: 20px; /* Space below the header */
 }
 
 /* Form styling */
 form {
-    padding: 30px;
+    padding: 20px; /* Consistent padding within the form */
     display: flex;
-    flex-direction: column;
-    align-items: stretch; /* Full width for form elements */
+    flex-direction: column; /* Stack elements vertically */
+    align-items: flex-start; /* Align items to the left */
 }
 
+/* Label styling */
 label {
     font-weight: bold;
-    color: #555555;
-    margin-top: 15px;
-    margin-bottom: 5px; /* Space between label and input */
+    color: #333; /* Dark gray for contrast */
+    margin: 10px 0 5px; /* Space around labels */
 }
 
 /* Input, Textarea, Select styles */
 textarea, select, input[type="text"] {
-    width: 100%;
-    padding: 12px;
-    margin-top: 5px;
-    border: 1px solid #cccccc;
-    border-radius: 5px;
-    transition: border-color 0.3s ease;
-    font-size: 1em; /* Standardized font size */
+    width: 100%; /* Full width inputs */
+    padding: 12px; /* Increased padding for comfort */
+    margin-top: 5px; /* Space above input elements */
+    border: 1px solid #cccccc; /* Light border */
+    border-radius: 5px; /* Rounded corners */
+    transition: border-color 0.3s, box-shadow 0.3s; /* Smooth transition */
+    font-size: 1em; /* Standard font size */
 }
 
+/* Reduced height for the textarea specifically for ingredients input */
 textarea {
-    height: 150px; /* Larger height for better ingredient entry */
+    height: 120px; /* Reduced height for ingredient entry */
     resize: vertical; /* Allow vertical resizing */
 }
 
 textarea:focus, select:focus, input[type="text"]:focus {
-    border-color: #004080; /* Dark blue for focus */
-    outline: none;
-    box-shadow: 0 0 5px rgba(0, 64, 128, 0.3); /* Soft blue shadow on focus */
+    border-color: #005F73; /* Change border color on focus */
+    outline: none; /* Remove outline */
+    box-shadow: 0 0 5px rgba(0, 95, 115, 0.3); /* Soft teal shadow */
 }
 
 /* Button styling */
 button {
-    background-color: #004080; /* Consistent dark blue */
+    background-color: #008C7A; /* Softer teal for buttons */
     color: #ffffff;
     border: none;
-    padding: 12px 18px;
-    border-radius: 5px;
+    padding: 12px 20px; /* Larger button for better touch targets */
+    border-radius: 5px; /* Rounded corners */
     cursor: pointer;
-    margin-top: 20px;
-    font-size: 1em;
+    margin-top: 15px; /* Space above button */
+    font-size: 1em; /* Standard font size */
     font-weight: bold;
-    transition: background-color 0.3s ease, transform 0.2s;
+    transition: background-color 0.3s, transform 0.2s; /* Smooth transitions */
 }
 
 button:hover {
-    background-color: #003366; /* Slightly darker blue on hover */
-    transform: translateY(-1px); /* Subtle lift effect */
+    background-color: #005F73; /* Darker teal on hover */
+    transform: translateY(-1px); /* Slight lift effect */
 }
 
 /* Recipes section */
 .recipes {
-    margin-top: 30px;
+    margin-top: 30px; /* Space above recipes */
+    width: 100%; /* Full width for recipe section */
 }
 
 .recipe {
-    background-color: #f0f0f0; /* Light gray for recipe cards */
-    padding: 15px;
-    margin: 15px 0;
-    border-radius: 8px;
-    border-left: 5px solid #004080; /* Consistent dark blue for accents */
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    background-color: #D9EAD3; /* Light green for recipe cards */
+    padding: 15px; /* Ample padding */
+    margin: 15px 0; /* Space between recipes */
+    border-radius: 8px; /* Rounded corners */
+    border-left: 5px solid #008C7A; /* Teal accent on the left */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05); /* Light shadow for depth */
 }
 
 /* Responsive adjustments */
 @media (max-width: 600px) {
     header {
-        font-size: 1.5em; /* Slightly smaller font on smaller screens */
+        font-size: 1.5em; /* Slightly smaller header font on mobile */
     }
     
     .container {
@@ -116,9 +115,12 @@ button:hover {
     }
     
     button {
-        padding: 10px 15px;
+        padding: 10px 15px; /* Adjust button padding */
     }
 }
+
+
+
 
 
 
