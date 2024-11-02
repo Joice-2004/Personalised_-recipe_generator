@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personalized Recipe Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>find your recipe HERE</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>Find Your Recipe</h2>
+            <form id="recipeForm">
+                <label for="ingredients">Available Ingredients:</label>
+                <textarea id="ingredients" name="ingredients" placeholder="List your ingredients here..." required></textarea>
+
+                <label for="diet">Dietary Preferences:</label>
+                <select id="diet" name="diet">
+                    <option value="">Any</option>
+                    <option value="vegetarian">Vegetarian</option>
+                    <option value="vegan">Vegan</option>
+                    <option value="gluten-free">Gluten-Free</option>
+                    <option value="paleo">Paleo</option>
+                </select>
+
+                <button type="submit">Generate Recipes</button>
+            </form>
+
+            <div id="recipes" class="recipes"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Personalized Recipe Generator. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
