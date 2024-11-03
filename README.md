@@ -6,9 +6,9 @@
 
 
 ### Team Members
-- Team Lead: [NEERAJ P] - [SAHRDAYA COLLEGE OF ENGINEERING AND TECHNOLOGY]
-- Member 2: [JOICE] - [SAHRDAYA COLLEGE OF ENGINEERING AND TECHNOLOGY]
-- Member 3: [NEHA PAULSON] - [SAHRDAYA COLLEGE OF ENGINEERING AND TECHNOLOGY]
+- Team Lead: NEERAJ P - [SAHRDAYA COLLEGE OF ENGINEERING AND TECHNOLOGY]
+- Member 2: JOICE C JOMON - [SAHRDAYA COLLEGE OF ENGINEERING AND TECHNOLOGY]
+- Member 3: NEHA PAULSON - [SAHRDAYA COLLEGE OF ENGINEERING AND TECHNOLOGY]
 
 ### Project Description
 [THE WEBSITE MAKES RCIPES ACCORDING TO THE USER'S WISH.This project is a Recipe Sharing Web Application designed with a clean, intuitive user interface for users to submit, view, and explore various recipes. The project leverages HTML, CSS, and JavaScript to create an interactive, responsive experience that feels both modern and user-friendly. Here’s a breakdown of the project:
