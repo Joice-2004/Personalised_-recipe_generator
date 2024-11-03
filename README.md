@@ -70,7 +70,7 @@ Add caption explaining what this shows
 Add caption explaining what this shows
 
 # Diagrams
-![Workflow](Add your workflow/architecture diagram here)
+![Workflow](https://github.com/Joice-2004/Personalised_recipe_generator/blob/main/dia.png)
 Add caption explaining your workflow
 
 For Hardware:
