@@ -63,10 +63,10 @@ For Software:
 ![Image Description](https://github.com/Joice-2004/Personalised_recipe_generator/blob/main/out1.png)
 
 
-![Screenshot2](Add screenshot 2 here with proper name)
+![Screenshot2](https://github.com/Joice-2004/Personalised_recipe_generator/blob/main/out2.png)
 Add caption explaining what this shows
 
-![Screenshot3](Add screenshot 3 here with proper name)
+![Screenshot3](https://github.com/Joice-2004/Personalised_recipe_generator/blob/main/out3.png)
 Add caption explaining what this shows
 
 # Diagrams
