@@ -60,8 +60,8 @@ For Software:vscode
 For Software:
 
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-Add caption explaining what this shows
+![Image Description](https://github.com/Joice-2004/Personalised_recipe_generator/blob/main/out1.png)
+
 
 ![Screenshot2](Add screenshot 2 here with proper name)
 Add caption explaining what this shows
