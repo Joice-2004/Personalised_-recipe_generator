@@ -38,15 +38,12 @@ This project is an ideal starting point for anyone interested in building intera
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [JAVA SCRIPT,C STYLE,HTML]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
+- JAVA SCRIPT,CSS,HTML
 
 For Hardware:
 - [LAPTOP]
 - [4 GB RAM]
-- [List tools required]
+- [VSCODE]
 
 ### Implementation
 For Software:vscode
@@ -59,7 +56,7 @@ For Software:vscode
 ### Project Documentation
 For Software:
 
-# Screenshots (Add at least 3)
+# Screenshots
 ![Image Description](https://github.com/Joice-2004/Personalised_recipe_generator/blob/main/out1.png)
 
 
@@ -69,8 +66,9 @@ Add caption explaining what this shows
 ![Screenshot3](https://github.com/Joice-2004/Personalised_recipe_generator/blob/main/out3.png)
 Add caption explaining what this shows
 
-# Diagrams
+# Diagram
 ![Workflow](https://github.com/Joice-2004/Personalised_recipe_generator/blob/main/dia.png)
+
 The workflow of the recipe generator website begins with the user accessing the site through a web browser, where they are presented with a user-friendly interface designed using HTML and styled with CSS. The user inputs a list of ingredients into a designated field and selects their dietary preferences, such as Paleo, Vegan, Vegetarian, or Gluten-Free. Upon submission, this data is processed by JavaScript, which is responsible for handling the logic behind the scenes. The JavaScript checks against a collection of hardcoded recipes embedded within the script to identify matches that align with the user's specified ingredients and dietary restrictions. Once the processing is complete, the website dynamically updates to display a selection of relevant recipes, including names, ingredients, and preparation instructions. Users can then review these recipes, and if they wish to refine their search, they can modify their input or preferences, effectively restarting the workflow.
 
 For Hardware:
