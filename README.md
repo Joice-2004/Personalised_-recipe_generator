@@ -94,7 +94,7 @@ Explain the final build
 
 ### Project Demo
 # Video
-[Add your demo video link here]
+[https://github.com/Joice-2004/Personalised_recipe_generator/blob/main/recipe%20generator%20vedio.mp4]
 [![Watch the video](https://github.com/Joice-2004/Personalised_recipe_generator/blob/main/recipe%20generator%20vedio.mp4)
 Explain what the video demonstrates
 
